@@ -1,0 +1,70 @@
+.card50:hover .card60 {
+  transform: rotateY(180deg);
+}
+
+.card60 {
+  transition: transform 0.7s;
+  transform-style: preserve-3d;
+}
+
+.front10,
+.back10 {
+  backface-visibility: hidden;
+}
+
+.back10 {
+  transform: rotateY(180deg);
+}
+
+.card60 {
+  width: 230px;
+  height: 350px;
+  margin: 10px;
+}
+
+.front10,
+.back10 {
+  box-shadow: 0 1px 6px 0;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+}
+
+.flexing {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+div h4 {
+  text-align: center;
+  margin-top: 15px;
+}
+
+img {
+  width: 450px;
+  height: 250px;
+  margin-bottom: 50px;
+}
+
+.pics {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.seperate {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  color: darkred;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
